@@ -230,7 +230,24 @@ summarize_build() {
   mmeasure 'modules.size' "$(measure_size)"
 }
 
-sed -e "s/\${BASE_API_URL}/${BASE_API_URL}/" -e "s/\${PUBLIC_URL}/${PUBLIC_URL}/" -e "s/\${GOOGLE_API_KEY}/${GOOGLE_API_KEY}/" -e "s/\${apikeyEtherscan}/${apikeyEtherscan}/" -e "s/\${firebase_apiKey}/${firebase_apiKey}/" -e "s/\${firebase_authDomain}/${firebase_authDomain}/" -e "s/\${firebase_databaseURL}/${firebase_databaseURL}/" -e "s/\${firebase_projectId}/${firebase_projectId}/" -e "s/\${firebase_storageBucket}/${firebase_storageBucket}/" -e "s/\${firebase_messagingSenderId}/${firebase_messagingSenderId}/" -e "s/\${ipfindKey}/${ipfindKey}/" -e "s/\${ipapiKey}/${ipapiKey}/" -e "s/\${social_isUseSocial}/${social_isUseSocial}/" -e "s/\${social_googleAnalyticId}/${social_googleAnalyticId}/" -e "s/\${social_facebookPixelId}/${social_facebookPixelId}/" -e "s/\${social_facebookAppId}/${social_facebookAppId}/" -e "s/\${PredictionHandshakeFileName}/${PredictionHandshakeFileName}/" ../.env-format.js > $BUILD_DIR/.env.js
+sed -e "s/\${BASE_API_URL}/${BASE_API_URL}/" \
+  -e "s/\${PUBLIC_URL}/${PUBLIC_URL}/" \
+  -e "s/\${GOOGLE_API_KEY}/${GOOGLE_API_KEY}/" \
+  -e "s/\${apikeyEtherscan}/${apikeyEtherscan}/" \
+  -e "s/\${firebase_apiKey}/${firebase_apiKey}/" \
+  -e "s/\${firebase_authDomain}/${firebase_authDomain}/" \
+  -e "s/\${firebase_databaseURL}/${firebase_databaseURL}/" \
+  -e "s/\${firebase_projectId}/${firebase_projectId}/" \
+  -e "s/\${firebase_storageBucket}/${firebase_storageBucket}/" \
+  -e "s/\${firebase_messagingSenderId}/${firebase_messagingSenderId}/" \
+  -e "s/\${ipfindKey}/${ipfindKey}/" \
+  -e "s/\${ipapiKey}/${ipapiKey}/" \
+  -e "s/\${social_isUseSocial}/${social_isUseSocial}/" \
+  -e "s/\${social_googleAnalyticId}/${social_googleAnalyticId}/" \
+  -e "s/\${social_facebookPixelId}/${social_facebookPixelId}/" \
+  -e "s/\${social_facebookAppId}/${social_facebookAppId}/"
+  -e "s/\${PredictionHandshakeFileName}/${PredictionHandshakeFileName}/" \
+    ../.env-format.js > $BUILD_DIR/.env.js;
 
 project_build() {
   if $YARN; then
