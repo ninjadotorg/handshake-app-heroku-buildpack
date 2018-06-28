@@ -245,7 +245,7 @@ sed -e "s|\${BASE_API_URL}|${BASE_API_URL}|" \
   -e "s|\${social_isUseSocial}|${social_isUseSocial}|" \
   -e "s|\${social_googleAnalyticId}|${social_googleAnalyticId}|" \
   -e "s|\${social_facebookPixelId}|${social_facebookPixelId}|" \
-  -e "s|\${social_facebookAppId}|${social_facebookAppId}/"
+  -e "s|\${social_facebookAppId}|${social_facebookAppId}|" \
   -e "s|\${PredictionHandshakeFileName}|${PredictionHandshakeFileName}|" \
   $BP_DIR/.env-format.js > $BUILD_DIR/.env.js
 
