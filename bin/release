@@ -2,12 +2,10 @@
 # bin/release <build-dir>
 
 BUILD_DIR=${1:-}
-echo $BUILD_DIR
-
 cd $BUILD_DIR/dist
 
 cat << EOF
 addons: []
 default_process_types:
-  web: yarn serve-heroku
+  web: yarn serveheroku
 EOF
