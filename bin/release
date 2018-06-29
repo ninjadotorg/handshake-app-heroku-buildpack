@@ -7,5 +7,5 @@ cd $BUILD_DIR/dist
 cat << EOF
 addons: []
 default_process_types:
-  web: yarn serve-heroku
+  web: sudo yarn serve-heroku
 EOF
