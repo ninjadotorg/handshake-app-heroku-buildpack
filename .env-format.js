@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'Ninja: Anonymous Peer-to-Peer Prediction Exchange',
+  title: 'Ninja: Anonymous Peer-to-Peer Prediction Exchange.',
   BASE_API_URL: "${BASE_API_URL}",
   PUBLIC_URL: "${PUBLIC_URL}",
   GOOGLE_API_KEY: '${GOOGLE_API_KEY}',
