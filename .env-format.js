@@ -15,7 +15,7 @@ module.exports = {
   ipfindKey: '${ipfindKey}',
   ipapiKey: '${ipapiKey}',
   social: {
-    isUseSocial: ${social_isUseSocial},
+    isUseSocial: '${social_isUseSocial}',
     googleAnalyticId: '${social_googleAnalyticId}',
     facebookPixelId: '${social_facebookPixelId}',
     facebookAppId: '${social_facebookAppId}',
