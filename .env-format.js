@@ -26,4 +26,8 @@ module.exports = {
   isDojo: false,
   isLive: false,
   caches: false,
+  wallets: {
+    BTC: '',
+    ETH: '0x54e4b785582CfC41814B2340329d0aa3d7A28B6a',
+  }
 };
