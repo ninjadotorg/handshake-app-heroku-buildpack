@@ -28,6 +28,6 @@ module.exports = {
   caches: false,
   wallets: {
     BTC: '',
-    ETH: '0x54e4b785582CfC41814B2340329d0aa3d7A28B6a',
+    ETH: '0xb7638284a124e2e88c2c776ea8156035273fe6bd',
   }
 };
