@@ -1,5 +1,7 @@
 module.exports = {
-  title: 'Ninja: Anonymous Peer-to-Peer Prediction Exchange.',
+  title: 'Ninja: Decentralized products & exchanges for the new internet',
+  description: 'Blockchain powered tools & protocols for the new internet. Decentralized AI solutions. Anonymous P2P exchanges for cryptocurrency, cash & predictions.',
+  keywords: 'Blockchain, Ethereum, Bitcoin, Cryptocurrency, Crypto, Prediction, Prediction Exchange, Wallet, Whisper, Decentralized, Decentralised, AI, Artificial Intelligence, Trading',
   BASE_API_URL: "${BASE_API_URL}",
   PUBLIC_URL: "${PUBLIC_URL}",
   GOOGLE_API_KEY: '${GOOGLE_API_KEY}',
