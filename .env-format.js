@@ -25,7 +25,7 @@ module.exports = {
   PredictionHandshakeFileName: '${PredictionHandshakeFileName}',
   dropConsole: false,
   isStaging: true,
-  isDojo: true,
+  isDojo: false,
   isLive: false,
   caches: false,
   wallets: {
