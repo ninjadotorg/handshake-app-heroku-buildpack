@@ -33,4 +33,5 @@ module.exports = {
     ETH: '0xb7638284a124e2e88c2c776ea8156035273fe6bd',
   },
   stripeKey: 'pk_test_mZwIvSjXu2X0szFOG9bfffha',
+  WALLET_SECRET_KEY: '${WALLET_SECRET_KEY}',
 };
