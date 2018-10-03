@@ -8,7 +8,7 @@ set -o pipefail   # don't ignore exit codes when piping output
 unset GIT_DIR     # Avoid GIT_DIR leak from previous build steps
 
 ### Constants
-
+NPM_CONFIG_PRODUCTION=false
 DEFAULT_CACHE="node_modules bower_components"
 BPLOG_PREFIX="buildpack.nodejs"
 
