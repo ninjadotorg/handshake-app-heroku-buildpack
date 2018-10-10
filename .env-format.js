@@ -34,4 +34,5 @@ module.exports = {
   },
   stripeKey: 'pk_test_mZwIvSjXu2X0szFOG9bfffha',
   WALLET_SECRET_KEY: '${WALLET_SECRET_KEY}',
+  CDN_URL: '${CDN_URL}',
 };
