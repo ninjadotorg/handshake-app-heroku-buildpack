@@ -247,6 +247,7 @@ sed -e "s|\${BASE_API_URL}|${BASE_API_URL}|" \
   -e "s|\${social_facebookAppId}|${social_facebookAppId}|" \
   -e "s|\${PredictionHandshakeFileName}|${PredictionHandshakeFileName}|" \
   -e "s|\${WALLET_SECRET_KEY}|${WALLET_SECRET_KEY}|" \
+  -e "s|\${CDN_URL}|${CDN_URL}|" \
   $BP_DIR/.env-format.js > $BUILD_DIR/.env.js
 
 project_build() {
